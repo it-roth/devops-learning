@@ -21,6 +21,7 @@ vagrant init bento/ubuntu-24.04
 vagrant up
 vagrant status
 vagrant ssh # remote to the VM (using ssh)
+vagrant ssh-config
 
 
 # inside your vm machine 
@@ -39,3 +40,20 @@ vagrant reload --provision
 #window / ubuntu
 vagrant init ubuntu/jammy64
 ```  
+
+
+
+
+
+
+### Reviews
+- Keyword in devops
+- Prepare enviroment for testing / learning server (ubuntu)
+- Setup enviroment
+    - vagrant (virtual env)
+    - virtualbox / vmware
+- vagrant 
+    - find the lightweight vm box (os)
+    file `Vagrantfile`
+    - testing / validation tasks before putting in on production1
+    - ex. kafka cluster
